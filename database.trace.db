@@ -1,0 +1,251 @@
+2017-02-19 18:33:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-193]
+2017-02-19 18:34:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-193]
+2017-02-19 18:34:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-193]
+2017-02-19 18:36:18 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 18:37:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-193]
+2017-02-19 18:37:33 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-193]
+2017-02-19 18:45:16 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 18:45:29 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 18:53:14 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "BENCHMARK[*](5000000,ENCODE('MSG','by 5 seconds'));   ' "; expected "BACKUP, BEGIN, {"; SQL statement:
+BENCHMARK(5000000,ENCODE('MSG','by 5 seconds')); --' [42001-193]
+2017-02-19 18:53:40 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "BENCHMARK[*](5000000,ENCODE('MSG','by 5 seconds'));    ' "; expected "BACKUP, BEGIN, {"; SQL statement:
+BENCHMARK(5000000,ENCODE('MSG','by 5 seconds')); --'' [42001-193]
+2017-02-19 18:55:18 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM USER WHERE NAME='' WAITFOR[*] DELAY '00:00:10'  ' "; SQL statement:
+SELECT * FROM User WHERE name='' waitfor delay '00:00:10'--' [42000-193]
+2017-02-19 19:01:36 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "@[*]LOOP 1000 SELECT ?, ?       ;   ' "; SQL statement:
+@loop 1000 select ?, ?/*rnd*/; --' [42000-193]
+2017-02-19 19:02:18 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "@[*]LOOP 1000 SELECT * FROM USER;   ' "; SQL statement:
+@loop 1000 select * from user; --' [42000-193]
+2017-02-19 19:02:32 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "LOOP[*] 1000 SELECT * FROM USER;   ' "; SQL statement:
+loop 1000 select * from user; --' [42000-193]
+2017-02-19 19:03:28 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement " @[*]AUTOCOMMIT_TRUE;   ' "; SQL statement:
+ @autocommit_true; --' [42000-193]
+2017-02-19 19:03:48 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement " AUTOCOMMIT_TRUE[*];   ' "; expected "ALTER, ANALYZE, {"; SQL statement:
+ autocommit_true; --' [42001-193]
+2017-02-19 19:04:37 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-193]
+2017-02-19 19:05:05 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-193]
+2017-02-19 19:12:25 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-193]
+2017-02-19 19:12:47 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-193]
+2017-02-19 19:15:50 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:16:37 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:16:41 jdbc[9]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:18:43 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:19:16 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:31:43 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:33:57 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:41:09 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:41:29 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:42:08 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:42:22 jdbc[17]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:43:05 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:43:15 jdbc[19]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:45:21 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:46:25 jdbc[21]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:47:42 jdbc[22]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:48:05 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 19:48:27 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 20:10:14 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement " SLEEP[*] 10   ' "; expected "SELECT, SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW, {"; SQL statement:
+ sleep 10 --' [42001-193]
+2017-02-19 20:10:38 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement " SLEEP[*] 10;   ' "; expected "SELECT, SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW, {"; SQL statement:
+ sleep 10; --' [42001-193]
+2017-02-19 20:11:05 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement " SLEEP[*](10);   ' "; expected "SELECT, SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW, {"; SQL statement:
+ sleep(10); --' [42001-193]
+2017-02-19 20:11:18 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-193]
+2017-02-19 20:23:55 jdbc[25]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 20:26:02 jdbc[26]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 20:34:23 jdbc[27]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 21:51:41 jdbc[28]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 21:51:59 jdbc[29]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 21:52:04 jdbc[30]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 21:52:38 jdbc[31]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 21:54:10 jdbc[32]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 23:03:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 23:09:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 23:13:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]
+2017-02-19 23:13:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE User (
+    name varchar(32) PRIMARY KEY,
+    password varchar(200)
+) [42101-193]

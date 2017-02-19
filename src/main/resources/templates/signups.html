@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+        <title>Signups for the event</title>
+    </head>
+    <body>
+        <h1>Sign up service</h1>
+        <p>Hello <span th:utext="${username}">username</span>, <a href="/form">sign up</a> a new person or <a href="/logout">log out</a></p>
+        <p>You can also remove people you have signed up from the list.</p>
+        <div th:unless="${#lists.isEmpty(signups)}">
+            <h2>List of signups</h2>
+            <table>
+                <tr>
+                    <td><b>Name</b></td>
+                    <td><b>Address</b></td>
+                    <td><b>Signed up by</b></td>
+                    <td><b>Remove?</b></td>
+                </tr>
+                <tr th:each="signup,iter : ${signups}">
+                    <td th:utext="${signup.name}"></td> 
+                    <td th:utext="${signup.address}"></td> 
+                    <td th:utext="${signup.username}"></td> 
+                    <td th:if="${signup.username} == ${username}">
+                        <a th:href="'/remove?id=' + ${signup.id}">Remove</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

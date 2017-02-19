@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+        <title>Main page</title>
+    </head>
+    <body>
+        <h1>Sign up service</h1>
+        <p>Hello <span th:utext="${username}">username</span>!</p>
+        <p>Please <a href="/form">Sign Up</a> or <a href="/logout">Logout</a></p>
+    </body>
+</html>
